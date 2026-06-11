@@ -295,3 +295,4 @@ Transition from synchronous session reliance to an asynchronous Webhook & Pollin
 ### Wireframe
 ![Payment Polling Wireframe](../assets/wireframes/payment-polling.png)
 *Caption: Payment polling screen independent of normal session auth*
+\n### Post-Peer Review Updates\n- **Queue System:** Added a 3-minute grace period for users who drop offline while in queue to prevent immediate loss of place.\n- **Filters:** Specified using 'replaceState' instead of 'pushState' so the user doesn't have to hit back 50 times to escape the search page.\n- **Vikalp:** Updated the modal spec to allow a 'Don't show this again' checkbox for power users.
